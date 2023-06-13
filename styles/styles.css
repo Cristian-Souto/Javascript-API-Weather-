@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(90deg, #a100ffff 0%, #71c4ffff 100%);
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+p{
+  font-size:18px;
+}
+svg{
+  width: 20px;
+  height: 25px;
+  margin-right: 10px;
+}
+button{
+  border: transparent;
+  background: transparent;
+}
+button svg{
+  border-radius: 50%;
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+input{
+  padding: .6rem;
+  border-radius: 5px;
+  border:none;
+  color: #000;
+  outline: none;
+}
+.search-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 50px;
+  text-align: center;
+  height: 50px;
+  background-color: #000;
+}
+footer a{
+  text-decoration: none;
+  font-size:12px;
+  color: wheat;
+}
+.weather-info {
+  width: 450px;
+  margin: 0 auto 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: transparent;
+}
+
+.weather-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.weather-info p {
+  font-size: 16px;
+  color: #fff;
+  margin: 14px 0;
+}
+img{
+  width: 64px;
+  height: 64px;
+}
+.weather-title{
+  position:absolute;
+  top:100px;
+  left: 35%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
